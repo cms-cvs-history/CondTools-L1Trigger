@@ -1,0 +1,31 @@
+
+
+# L1TWriter module
+# Module can be run several times provided that the following conditions are met
+# * No sinceRun is provided - illogical to save data for the same IOV several times
+# * No keyValue provided - we cann't store different IOV intervals with the same keyValue, so use generated one
+
+include "CondTools/L1Trigger/data/L1DBParams.cfi"
+
+module L1TDBWriter = L1TWriter {
+    # Database to use. Same as in PoolDBOutputService
+    string connect = "sqlite_file:l1config.db"      
+
+    # Catalog to use. Same as in PoolDBOutputService, but only valid catalogs
+    # accepted, no fancy "local" or other shortcuts.        
+    string catalog = "file:test.xml"                
+
+    # Tag to use for the key. Recuired
+    string keyTag = "current"                       
+
+    # Determins what run assign as start of validity interval.
+#        int32 sinceRun = 10                            
+                                                        
+    # Optional, if missing use one from EventSetup ???
+
+    # Optional, but not much point to skip it.
+    VPSet toSave = { }              
+    
+}
+
+replace L1TDBWriter.toSave += L1DBParams.validItems
