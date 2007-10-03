@@ -1,7 +1,12 @@
 
 block L1DBParams = {
 
-    
+    # DB connection
+    string connect = "sqlite_file:l1config.db"
+    string catalog = "file:test.xml"    
+
+    # What tag to use to load main L1TriggerKey
+    string tag = "current"
 
     VPSet validItems = {
         {
