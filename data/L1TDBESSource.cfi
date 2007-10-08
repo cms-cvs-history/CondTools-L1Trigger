@@ -18,4 +18,4 @@ es_source L1TDBESSource = L1TDBESSource {
 
 include "CondTools/L1Trigger/data/L1DBParams.cfi"
 
-replace L1TriggerSource.toLoad += L1DBParams.validItems
+replace L1TDBESSource.toLoad += L1DBParams.validItems
