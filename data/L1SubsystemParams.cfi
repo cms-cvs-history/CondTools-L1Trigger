@@ -1,0 +1,178 @@
+# keys are used only in L1TriggerKeyDummyProd
+# tags are used in L1CondDBIOVWriterProd and must match PoolDBESSource
+
+block L1SubsystemParams = {
+
+    VPSet recordInfo = {
+        {
+            string record = "L1JetEtScaleRcd"
+            string type = "L1CaloEtScale"
+            string key = "dummy"
+            string tag = "L1CaloEtScaleStandard"
+        }
+#        {
+#            string record = "L1EmEtScaleRcd"
+#            string type = "L1CaloEtScale"
+#            string key = "dummy"
+#            string tag = "L1CaloEtScaleStandard"
+#        },
+#	{
+#	    string record = "L1MuTriggerScalesRcd"
+#	    string type = "L1MuTriggerScales"
+#            string key = "dummy"
+#	    string tag = "L1MuTriggerScalesStandard"
+#	},
+#	{
+#	    string record = "L1MuGMTScalesRcd"
+#	    string type = "L1MuGMTScales"
+#            string key = "dummy"
+#	    string tag = "L1MuGMTScalesStandard"
+#	},
+#        {
+#            string record = "L1CSCTPParametersRcd"
+#            string type = "L1CSCTPParameters"
+#            string key = "dummy"
+#            string tag = "L1CSCTPParametersStandard"
+#        },
+#        {
+#            string record = "L1MuCSCDTLutRcd"
+#            string type = "L1MuCSCDTLut"
+#            string key = "dummy"
+#            string tag = "L1MuCSCDTLutStandard"
+#        },
+#        {
+#            string record = "L1MuCSCGlobalLutsRcd"
+#            string type = "L1MuCSCGlobalLuts"
+#            string key = "dummy"
+#            string tag = "L1MuCSCGlobalLutsStandard"
+#        },
+#        {
+#            string record = "L1MuCSCLocalPhiLutRcd"
+#            string type = "L1MuCSCLocalPhiLut"
+#            string key = "dummy"
+#            string tag = "L1MuCSCLocalPhiLutStandard"
+#        },
+#        {
+#            string record = "L1MuCSCPtLutRcd"
+#            string type = "L1MuCSCPtLut"
+#            string key = "dummy"
+#            string tag = "L1MuCSCPtLutStandard"
+#        },
+#	{
+#	    string record = "DTConfigManagerRcd"
+#	    string type = "DTConfigManager"
+#            string key = "dummy"
+#	    string tag = "DTConfigManagerStandard"
+#	},
+#	{
+#	    string record = "L1MuDTEtaPatternLutRcd"
+#	    string type = "L1MuDTEtaPatternLut"
+#            string key = "dummy"
+#	    string tag = "L1MuDTEtaPatternLutStandard"
+#	},
+#	{
+#	    string record = "L1MuDTExtLutRcd"
+#	    string type = "L1MuDTExtLut"
+#            string key = "dummy"
+#	    string tag = "L1MuDTExtLutStandard"
+#	},
+#	{
+#	    string record = "L1MuDTPhiLutRcd"
+#	    string type = "L1MuDTPhiLut"
+#            string key = "dummy"
+#	    string tag = "L1MuDTPhiLutStandard"
+#	},
+#	{
+#	    string record = "L1MuDTPtaLutRcd"
+#	    string type = "L1MuDTPtaLut"
+#            string key = "dummy"
+#	    string tag = "L1MuDTPtaLutStandard"
+#	},
+#	{
+#	    string record = "L1MuDTQualPatternLutRcd"
+#	    string type = "L1MuDTQualPatternLut"
+#            string key = "dummy"
+#	    string tag = "L1MuDTQualPatternLutStandard"
+#	},
+#	{
+#	    string record = "L1RPCConfigRcd"
+#	    string type = "L1RPCConfig"
+#            string key = "dummy"
+#	    string tag = "L1RPCConfigStandard"
+#	},
+#	{
+#	    string record = "L1MuGMTParametersRcd"
+#	    string type = "L1MuGMTParameters"
+#            string key = "dummy"
+#	    string tag = "L1MuGMTParametersStandard"
+#	},
+#	{
+#	    string record = "L1RCTParametersRcd"
+#	    string type = "L1RCTParameters"
+#            string key = "dummy"
+#	    string tag = "L1RCTParametersStandard"
+#	},
+#	{
+#	    string record = "L1GctJetFinderParamsRcd"
+#	    string type = "L1GctJetFinderParams"
+#            string key = "dummy"
+#	    string tag = "L1GctJetFinderParamsStandard"
+#	},
+#	{
+#	    string record = "L1GctJetCalibFunRcd"
+#	    string type = "L1GctJetEtCalibrationFunction"
+#            string key = "dummy"
+#	    string tag = "L1GctJetEtCalibrationFunctionStandard"
+#	},
+#	{
+#	    string record = "L1GctJetCounterNegativeEtaRcd"
+#	    string type = "L1GctJetCounterSetup"
+#            string key = "dummy"
+#	    string tag = "L1GctJetCounterSetupStandard"
+#	},
+#	{
+#	    string record = "L1GctJetCounterPositiveEtaRcd"
+#	    string type = "L1GctJetCounterSetup"
+#            string key = "dummy"
+#	    string tag = "L1GctJetCounterSetupStandard"
+#	},
+#	{
+#	    string record = "L1GtBoardMapsRcd"
+#	    string type = "L1GtBoardMaps"
+#            string key = "dummy"
+#	    string tag = "L1GtBoardMapsStandard"
+#	},
+#	{
+#	    string record = "L1GtParametersRcd"
+#	    string type = "L1GtParameters"
+#            string key = "dummy"
+#	    string tag = "L1GtParametersStandard"
+#	},
+#	{
+#	    string record = "L1GtPrescaleFactorsRcd"
+#	    string type = "L1GtPrescaleFactors"
+#            string key = "dummy"
+#	    string tag = "L1GtPrescaleFactorsStandard"
+#	},
+#	{
+#	    string record = "L1GtStableParametersRcd"
+#	    string type = "L1GtStableParameters"
+#            string key = "dummy"
+#	    string tag = "L1GtStableParametersStandard"
+#	},
+#	{
+#	    string record = "L1GtTriggerMaskRcd"
+#	    string type = "L1GtTriggerMask"
+#            string key = "dummy"
+#	    string tag = "L1GtTriggerMaskStandard"
+#	},
+#	{
+#	    string record = "L1GtTriggerMenuRcd"
+#	    string type = "L1GtTriggerMenu"
+#            string key = "dummy"
+#	    string tag = "L1GtTriggerMenuStandard"
+#	}
+
+    }
+
+}

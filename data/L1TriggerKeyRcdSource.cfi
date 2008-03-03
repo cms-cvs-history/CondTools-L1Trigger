@@ -1,0 +1,5 @@
+  es_source L1TriggerKeyRcdSource = EmptyESSource {
+    string recordName = "L1TriggerKeyRcd"
+    vuint32 firstValid = { 1 }
+    bool iovIsRunNotTime = true
+  }

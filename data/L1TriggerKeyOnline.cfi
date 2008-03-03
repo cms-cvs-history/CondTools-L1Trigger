@@ -1,0 +1,7 @@
+es_module L1TriggerKeyOnline = L1TriggerKeyOnlineProd
+{
+	string tscKey = "dummy"
+	string onlineDB = "??"
+	string onlineAuthentication = "??"
+	bool forceGeneration = false
+}

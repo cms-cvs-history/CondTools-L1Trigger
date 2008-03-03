@@ -1,0 +1,6 @@
+es_module L1TriggerConfigOnline = L1TriggerConfigOnlineProd
+{
+        string onlineDB = "??"
+        string onlineAuthentication = "??"
+        bool forceGeneration = false
+}
