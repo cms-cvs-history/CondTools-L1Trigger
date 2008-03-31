@@ -8,13 +8,13 @@ block L1SubsystemParams = {
             string record = "L1JetEtScaleRcd"
             string type = "L1CaloEtScale"
             string key = "dummy"
-            string tag = "L1CaloEtScaleStandard"
+            string tag = "L1JetEtScaleStandard"
         },
         {
             string record = "L1EmEtScaleRcd"
             string type = "L1CaloEtScale"
             string key = "dummy"
-            string tag = "L1CaloEtScaleStandard"
+            string tag = "L1EmEtScaleStandard"
         },
 #	{
 #	    string record = "L1MuTriggerScalesRcd"
@@ -128,13 +128,13 @@ block L1SubsystemParams = {
 	    string record = "L1GctJetCounterNegativeEtaRcd"
 	    string type = "L1GctJetCounterSetup"
             string key = "dummy"
-	    string tag = "L1GctJetCounterSetupStandard"
+	    string tag = "L1GctJetCounterNegativeEtaStandard"
 	},
 	{
 	    string record = "L1GctJetCounterPositiveEtaRcd"
 	    string type = "L1GctJetCounterSetup"
             string key = "dummy"
-	    string tag = "L1GctJetCounterSetupStandard"
+	    string tag = "L1GctJetCounterPositiveEtaStandard"
 	},
 	{
 	    string record = "L1GtBoardMapsRcd"
@@ -165,13 +165,13 @@ block L1SubsystemParams = {
 	    string type = "L1GtTriggerMask"
             string key = "dummy"
 	    string tag = "L1GtTriggerMaskStandard"
+	},
+	{
+	    string record = "L1GtTriggerMenuRcd"
+	    string type = "L1GtTriggerMenu"
+            string key = "dummy"
+	    string tag = "L1GtTriggerMenuStandard"
 	}
-#	{
-#	    string record = "L1GtTriggerMenuRcd"
-#	    string type = "L1GtTriggerMenu"
-#            string key = "dummy"
-#	    string tag = "L1GtTriggerMenuStandard"
-#	}
 
     }
 
