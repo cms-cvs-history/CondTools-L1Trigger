@@ -16,18 +16,24 @@ block L1SubsystemParams = {
             string key = "dummy"
             string tag = "L1EmEtScaleStandard"
         },
-#	{
-#	    string record = "L1MuTriggerScalesRcd"
-#	    string type = "L1MuTriggerScales"
-#            string key = "dummy"
-#	    string tag = "L1MuTriggerScalesStandard"
-#	},
-#	{
-#	    string record = "L1MuGMTScalesRcd"
-#	    string type = "L1MuGMTScales"
-#            string key = "dummy"
-#	    string tag = "L1MuGMTScalesStandard"
-#	},
+	{
+	    string record = "L1MuTriggerScalesRcd"
+	    string type = "L1MuTriggerScales"
+            string key = "dummy"
+	    string tag = "L1MuTriggerScalesStandard"
+	},
+	{
+	    string record = "L1MuTriggerPtScaleRcd"
+	    string type = "L1MuTriggerPtScale"
+            string key = "dummy"
+	    string tag = "L1MuTriggerPtScaleStandard"
+	},
+	{
+	    string record = "L1MuGMTScalesRcd"
+	    string type = "L1MuGMTScales"
+            string key = "dummy"
+	    string tag = "L1MuGMTScalesStandard"
+	},
         {
             string record = "L1CSCTPParametersRcd"
             string type = "L1CSCTPParameters"
@@ -171,6 +177,12 @@ block L1SubsystemParams = {
 	    string type = "L1GtTriggerMenu"
             string key = "dummy"
 	    string tag = "L1GtTriggerMenuStandard"
+	},
+	{
+	    string record = "L1CaloGeometryRecord"
+	    string type = "L1CaloGeometry"
+            string key = "dummy"
+	    string tag = "L1CaloGeometryStandard"
 	}
 
     }
