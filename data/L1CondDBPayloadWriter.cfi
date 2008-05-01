@@ -2,5 +2,5 @@ module L1CondDBPayloadWriter = L1CondDBPayloadWriter
 {
         string offlineDB = "sqlite_file:l1config.db"
         string offlineAuthentication = ""
-	string L1TriggerKeyListTag = "L1TriggerKeyListStandard"
+	string L1TriggerKeyListTag = "L1TriggerKeyList_CRUZET_hlt"
 }

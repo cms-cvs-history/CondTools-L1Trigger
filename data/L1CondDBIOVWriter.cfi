@@ -2,7 +2,7 @@ module L1CondDBIOVWriter = L1CondDBIOVWriter
 {
         string offlineDB = "sqlite_file:l1config.db"
         string offlineAuthentication = ""
-        string L1TriggerKeyTag = "L1TriggerKeyStandard"
+        string L1TriggerKeyTag = "L1TriggerKey_CRUZET_hlt"
 	VPSet toPut = { }
 }
 
