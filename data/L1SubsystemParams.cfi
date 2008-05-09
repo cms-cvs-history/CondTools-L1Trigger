@@ -161,10 +161,16 @@ block L1SubsystemParams = {
 	    string tag = "L1GtParameters_CRUZET_hlt"
 	},
 	{
-	    string record = "L1GtPrescaleFactorsRcd"
+	    string record = "L1GtPrescaleFactorsAlgoTrigRcd"
 	    string type = "L1GtPrescaleFactors"
             string key = "dummy"
-	    string tag = "L1GtPrescaleFactors_CRUZET_hlt"
+	    string tag = "L1GtPrescaleFactorsAlgoTrig_CRUZET_hlt"
+	},
+	{
+	    string record = "L1GtPrescaleFactorsTechTrigRcd"
+	    string type = "L1GtPrescaleFactors"
+            string key = "dummy"
+	    string tag = "L1GtPrescaleFactorsTechTrig_CRUZET_hlt"
 	},
 	{
 	    string record = "L1GtStableParametersRcd"
@@ -173,10 +179,16 @@ block L1SubsystemParams = {
 	    string tag = "L1GtStableParameters_CRUZET_hlt"
 	},
 	{
-	    string record = "L1GtTriggerMaskRcd"
+	    string record = "L1GtTriggerMaskAlgoTrigRcd"
 	    string type = "L1GtTriggerMask"
             string key = "dummy"
-	    string tag = "L1GtTriggerMask_CRUZET_hlt"
+	    string tag = "L1GtTriggerMaskAlgoTrig_CRUZET_hlt"
+	}
+	{
+	    string record = "L1GtTriggerMaskTechTrigRcd"
+	    string type = "L1GtTriggerMask"
+            string key = "dummy"
+	    string tag = "L1GtTriggerMaskTechTrig_CRUZET_hlt"
 	}
 #	{
 #	    string record = "L1GtTriggerMenuRcd"
