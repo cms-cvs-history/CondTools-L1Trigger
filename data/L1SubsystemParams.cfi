@@ -183,7 +183,7 @@ block L1SubsystemParams = {
 	    string type = "L1GtTriggerMask"
             string key = "dummy"
 	    string tag = "L1GtTriggerMaskAlgoTrig_CRUZET_hlt"
-	}
+	},
 	{
 	    string record = "L1GtTriggerMaskTechTrigRcd"
 	    string type = "L1GtTriggerMask"
