@@ -70,12 +70,12 @@ block L1SubsystemParams = {
 #            string key = "dummy"
 #            string tag = "L1MuCSCPtLut_CRUZET_hlt"
 #        },
-#	{
-#	    string record = "DTConfigManagerRcd"
-#	    string type = "DTConfigManager"
-#            string key = "dummy"
-#	    string tag = "DTConfigManager_CRUZET_hlt"
-#	},
+	{
+	    string record = "DTConfigManagerRcd"
+	    string type = "DTConfigManager"
+            string key = "dummy"
+	    string tag = "DTConfigManager_CRUZET_hlt"
+	},
 	{
 	    string record = "L1MuDTEtaPatternLutRcd"
 	    string type = "L1MuDTEtaPatternLut"
