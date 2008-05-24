@@ -70,12 +70,12 @@ block L1SubsystemParams = {
             string key = "dummy"
             string tag = "L1MuCSCPtLut_CRUZET_hlt"
         },
-	{
-	    string record = "DTConfigManagerRcd"
-	    string type = "DTConfigManager"
-            string key = "dummy"
-	    string tag = "DTConfigManager_CRUZET_hlt"
-	},
+#	{
+#	    string record = "DTConfigManagerRcd"
+#	    string type = "DTConfigManager"
+#            string key = "dummy"
+#	    string tag = "DTConfigManager_CRUZET_hlt"
+#	},
 	{
 	    string record = "L1MuDTEtaPatternLutRcd"
 	    string type = "L1MuDTEtaPatternLut"
@@ -135,6 +135,18 @@ block L1SubsystemParams = {
 	    string type = "L1RCTChannelMask"
             string key = "dummy"
 	    string tag = "L1RCTChannelMask_CRUZET_hlt"
+	},
+	{
+	    string record = "L1RctEcalScaleRcd"
+	    string type = "L1RctInputScale"
+            string key = "dummy"
+	    string tag = "L1RctEcalScale_CRUZET_hlt"
+	},
+	{
+	    string record = "L1RctHcalScaleRcd"
+	    string type = "L1RctInputScale"
+            string key = "dummy"
+	    string tag = "L1RctHcalScale_CRUZET_hlt"
 	},
 	{
 	    string record = "L1GctJetFinderParamsRcd"
