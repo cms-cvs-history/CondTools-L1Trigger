@@ -16,24 +16,24 @@ block L1SubsystemParams = {
             string key = "dummy"
             string tag = "L1EmEtScale_CRUZET_hlt"
         },
-#	{
-#	    string record = "L1MuTriggerScalesRcd"
-#	    string type = "L1MuTriggerScales"
-#            string key = "dummy"
-#	    string tag = "L1MuTriggerScales_CRUZET_hlt"
-#	},
-#	{
-#	    string record = "L1MuTriggerPtScaleRcd"
-#	    string type = "L1MuTriggerPtScale"
-#            string key = "dummy"
-#	    string tag = "L1MuTriggerPtScale_CRUZET_hlt"
-#	},
-#	{
-#	    string record = "L1MuGMTScalesRcd"
-#	    string type = "L1MuGMTScales"
-#            string key = "dummy"
-#	    string tag = "L1MuGMTScales_CRUZET_hlt"
-#	},
+	{
+	    string record = "L1MuTriggerScalesRcd"
+	    string type = "L1MuTriggerScales"
+            string key = "dummy"
+	    string tag = "L1MuTriggerScales_CRUZET_hlt"
+	},
+	{
+	    string record = "L1MuTriggerPtScaleRcd"
+	    string type = "L1MuTriggerPtScale"
+            string key = "dummy"
+	    string tag = "L1MuTriggerPtScale_CRUZET_hlt"
+	},
+	{
+	    string record = "L1MuGMTScalesRcd"
+	    string type = "L1MuGMTScales"
+            string key = "dummy"
+	    string tag = "L1MuGMTScales_CRUZET_hlt"
+	},
         {
             string record = "L1CSCTPParametersRcd"
             string type = "L1CSCTPParameters"
@@ -46,24 +46,12 @@ block L1SubsystemParams = {
             string key = "dummy"
             string tag = "L1MuCSCTFConfiguration_CRUZET_hlt"
         },
-#        {
-#            string record = "L1MuCSCDTLutRcd"
-#            string type = "L1MuCSCDTLut"
-#            string key = "dummy"
-#            string tag = "L1MuCSCDTLut_CRUZET_hlt"
-#        },
-#        {
-#            string record = "L1MuCSCGlobalLutsRcd"
-#            string type = "L1MuCSCGlobalLuts"
-#            string key = "dummy"
-#            string tag = "L1MuCSCGlobalLuts_CRUZET_hlt"
-#        },
-#        {
-#            string record = "L1MuCSCLocalPhiLutRcd"
-#            string type = "L1MuCSCLocalPhiLut"
-#            string key = "dummy"
-#            string tag = "L1MuCSCLocalPhiLut_CRUZET_hlt"
-#        },
+        {
+            string record = "L1MuCSCTFAlignmentRcd"
+            string type = "L1MuCSCTFAlignment"
+            string key = "dummy"
+            string tag = "L1MuCSCTFAlignment_CRUZET_hlt"
+        },
         {
             string record = "L1MuCSCPtLutRcd"
             string type = "L1MuCSCPtLut"
@@ -137,16 +125,22 @@ block L1SubsystemParams = {
 	    string tag = "L1RCTChannelMask_CRUZET_hlt"
 	},
 	{
-	    string record = "L1RctEcalScaleRcd"
-	    string type = "L1RctInputScale"
+	    string record = "L1CaloEcalScaleRcd"
+	    string type = "L1CaloEcalScale"
             string key = "dummy"
-	    string tag = "L1RctEcalScale_CRUZET_hlt"
+	    string tag = "L1CaloEcalScale_CRUZET_hlt"
 	},
 	{
-	    string record = "L1RctHcalScaleRcd"
-	    string type = "L1RctInputScale"
+	    string record = "L1CaloHcalScaleRcd"
+	    string type = "L1CaloHcalScale"
             string key = "dummy"
-	    string tag = "L1RctHcalScale_CRUZET_hlt"
+	    string tag = "L1CaloHcalScale_CRUZET_hlt"
+	},
+	{
+	    string record = "L1GctChannelMaskRcd"
+	    string type = "L1GctChannelMask"
+            string key = "dummy"
+	    string tag = "L1GctChannelMask_CRUZET_hlt"
 	},
 	{
 	    string record = "L1GctJetFinderParamsRcd"
@@ -213,19 +207,19 @@ block L1SubsystemParams = {
 	    string type = "L1GtTriggerMask"
             string key = "dummy"
 	    string tag = "L1GtTriggerMaskTechTrig_CRUZET_hlt"
+	},
+	{
+	    string record = "L1GtTriggerMenuRcd"
+	    string type = "L1GtTriggerMenu"
+            string key = "dummy"
+	    string tag = "L1GtTriggerMenu_CRUZET_hlt"
+	},
+	{
+	    string record = "L1CaloGeometryRecord"
+	    string type = "L1CaloGeometry"
+            string key = "dummy"
+	    string tag = "L1CaloGeometry_CRUZET_hlt"
 	}
-#	{
-#	    string record = "L1GtTriggerMenuRcd"
-#	    string type = "L1GtTriggerMenu"
-#            string key = "dummy"
-#	    string tag = "L1GtTriggerMenu_CRUZET_hlt"
-#	},
-#	{
-#	    string record = "L1CaloGeometryRecord"
-#	    string type = "L1CaloGeometry"
-#            string key = "dummy"
-#	    string tag = "L1CaloGeometry_CRUZET_hlt"
-#	}
 
    }
 
