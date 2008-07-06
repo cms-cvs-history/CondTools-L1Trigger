@@ -35,12 +35,6 @@ block L1SubsystemParams = {
 	    string tag = "L1MuGMTScales_CRUZET_hlt"
 	},
         {
-            string record = "L1CSCTPParametersRcd"
-            string type = "L1CSCTPParameters"
-            string key = "dummy"
-            string tag = "L1CSCTPParameters_CRUZET_hlt"
-        },
-        {
             string record = "L1MuCSCTFConfigurationRcd"
             string type = "L1MuCSCTFConfiguration"
             string key = "dummy"
