@@ -94,12 +94,12 @@ block L1SubsystemParams = {
             string key = "dummy"
 	    string tag = "L1MuDTTFParameters_CRUZET_hlt"
 	},
-#	{
-#	    string record = "L1RPCConfigRcd"
-#	    string type = "L1RPCConfig"
-#            string key = "dummy"
-#	    string tag = "L1RPCConfig_CRUZET_hlt"
-#	},
+	{
+	    string record = "L1RPCConfigRcd"
+	    string type = "L1RPCConfig"
+            string key = "dummy"
+	    string tag = "L1RPCConfig_CRUZET_hlt"
+	},
 	{
 	    string record = "L1MuGMTParametersRcd"
 	    string type = "L1MuGMTParameters"
