@@ -1,6 +1,0 @@
-es_module L1TriggerConfigOnline = L1TriggerConfigOnlineProd
-{
-        string onlineDB = "oracle://omds/GLOBALCALTRIGGER"
-        string onlineAuthentication = "."
-        bool forceGeneration = false
-}
