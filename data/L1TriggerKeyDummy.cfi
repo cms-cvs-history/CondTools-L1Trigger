@@ -1,8 +1,0 @@
-es_module L1TriggerKeyDummy = L1TriggerKeyDummyProd
-{
-	string tscKey = "dummy"
-	VPSet subsystemKeys = { }
-}
-
-include "CondTools/L1Trigger/data/L1SubsystemParams.cfi"
-replace L1TriggerKeyDummy.subsystemKeys += L1SubsystemParams.recordInfo

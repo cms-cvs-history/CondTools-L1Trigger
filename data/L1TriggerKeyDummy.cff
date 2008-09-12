@@ -1,2 +1,0 @@
-include "CondTools/L1Trigger/data/L1TriggerKeyDummy.cfi"
-include "CondTools/L1Trigger/data/L1TriggerKeyRcdSource.cfi"
